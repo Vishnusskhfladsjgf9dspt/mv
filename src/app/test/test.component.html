@@ -1,0 +1,8 @@
+<h1 class="success">Hi {{ name }}!!!!</h1>
+<!-- Interpolation -->
+<h2 [style.color]="isError ? 'red' : 'blue'">Age: {{ age }}</h2>
+<!-- style-binding -->
+<input type="text" [value]="name" />
+<!-- property-binding -->
+<button (click)="onSubmit()">Submit</button>
+<!-- event-binding -->
